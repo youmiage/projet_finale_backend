@@ -36,6 +36,7 @@ app.use(
         "http://localhost:5174",
         "http://localhost:5175",
         "http://localhost:3000",
+        "https://frontendprojet-zeta.vercel.app", // URL du frontend Vercel
         process.env.FRONTEND_URL
       ].filter(Boolean);
 
